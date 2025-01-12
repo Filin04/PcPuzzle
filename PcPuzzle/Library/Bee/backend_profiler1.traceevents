@@ -1,0 +1,492 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1717466240765534, "dur":3084, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717466240768635, "dur":121, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1717466240768792, "dur":34, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1717466240768830, "dur":426, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1717466240769310, "dur":1885, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717466240771195, "dur":3, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717466246508746, "dur":200, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717466246508946, "dur":32, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717466246508978, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717466246508984, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717466246509000, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717466246509005, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717466246509020, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717466246509024, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717466246509040, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717466246509078, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717466246509106, "dur":3460, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1717466240769826, "dur":1384, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466240771216, "dur":6628, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466240777867, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1717466240777879, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466240781694, "dur":3035, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1717466240784737, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1717466240784884, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466240786746, "dur":5362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1717466240792114, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1717466240792342, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466240792798, "dur":10731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1717466240803635, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1717466240803811, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466240803832, "dur":4367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1717466240808353, "dur":506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1717466240808871, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466240810245, "dur":2952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1717466240813263, "dur":22615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1717466240835890, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466240835915, "dur":3620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1717466240839620, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1717466240839827, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466240840448, "dur":4212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1717466240844726, "dur":350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1717466240845086, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466240845228, "dur":4723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1717466240850037, "dur":30531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1717466240880578, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466240880820, "dur":5033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1717466240886008, "dur":31928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1717466240917949, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466240917968, "dur":3064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1717466240921093, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1717466240921274, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466240923369, "dur":32182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1717466240955617, "dur":155983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241111608, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466241112328, "dur":6561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241118945, "dur":16167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241135121, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466241135686, "dur":2147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241137888, "dur":11984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241149881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466241149895, "dur":89257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241239231, "dur":12482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241251726, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466241251747, "dur":2011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241253826, "dur":11428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241265263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466241265282, "dur":6689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241272035, "dur":10703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241282747, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466241282764, "dur":1733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241284564, "dur":10061, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241294635, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466241294658, "dur":46094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241341047, "dur":33668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241374728, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466241374759, "dur":2580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241377402, "dur":10603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241388064, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466241388098, "dur":3487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241391653, "dur":10029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241401695, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466241401718, "dur":10241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241412019, "dur":43950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241455982, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466241456005, "dur":2796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241458865, "dur":20450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241479329, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466241479352, "dur":4878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241484290, "dur":10805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241495110, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466241495180, "dur":16253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241511499, "dur":65325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241576838, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466241576861, "dur":11427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241588351, "dur":12871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241601232, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466241601253, "dur":2791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241604172, "dur":18215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241622400, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466241622423, "dur":30341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241652840, "dur":29077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241681931, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466241681965, "dur":12414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241694445, "dur":11276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241705734, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466241705757, "dur":12234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241718056, "dur":46813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241764882, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466241764904, "dur":8085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241773048, "dur":41182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241814243, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466241814266, "dur":23569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241837890, "dur":43483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241881385, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466241881406, "dur":12624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241894094, "dur":12667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241906775, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466241906798, "dur":34682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241941607, "dur":16087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241957708, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466241957762, "dur":17545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466241975368, "dur":356599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466242331981, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466242332004, "dur":6277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466242338350, "dur":412229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466242750592, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466242750615, "dur":52179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466242802855, "dur":160979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466242972132, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466242972161, "dur":77812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466243050042, "dur":121395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466243171447, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466243171468, "dur":1979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466243173517, "dur":103452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466243276982, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466243277031, "dur":14720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466243291813, "dur":792604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466244084431, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466244084454, "dur":20208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466244104725, "dur":226841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466244331579, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466244331601, "dur":53244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466244384909, "dur":1195726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466245580649, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466245580672, "dur":8003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466245588736, "dur":146846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466245735595, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466245735618, "dur":2269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466245737943, "dur":718639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466246456595, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717466246456618, "dur":3635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717466246460376, "dur":48368, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466240769869, "dur":1353, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466240771222, "dur":7898, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466240779122, "dur":52878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1717466240832008, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466240832060, "dur":2802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1717466240834931, "dur":18095, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1717466240853040, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466240853065, "dur":8315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1717466240861447, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1717466240861640, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466240861664, "dur":5160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1717466240867039, "dur":846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1717466240868047, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466240868071, "dur":3404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1717466240871551, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1717466240871778, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466240871800, "dur":8161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1717466240880028, "dur":20099, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466240900140, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466240901244, "dur":3964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466240905270, "dur":553648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle.exe" }}
+,{ "pid":12345, "tid":2, "ts":1717466241458926, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466241458942, "dur":12345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle.exe" }}
+,{ "pid":12345, "tid":2, "ts":1717466241471351, "dur":11979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466241483485, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466241483527, "dur":4677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466241488272, "dur":12709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466241500994, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466241501016, "dur":5818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466241506892, "dur":10568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466241517473, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466241517497, "dur":3623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466241521187, "dur":12844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466241534042, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466241534065, "dur":3811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466241537943, "dur":12439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466241550396, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466241550418, "dur":2255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466241552761, "dur":10545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466241563460, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466241563483, "dur":2193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466241565740, "dur":12340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466241578090, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466241578111, "dur":3735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466241581910, "dur":16135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466241598058, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466241598081, "dur":2786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466241600945, "dur":11991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466241612949, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466241612973, "dur":3463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466241616503, "dur":11400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466241627917, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466241627941, "dur":2200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466241630206, "dur":14184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466241644404, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466241644428, "dur":38334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466241682840, "dur":40106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466241722970, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466241723067, "dur":46147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466241769280, "dur":46742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466241816034, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466241816055, "dur":22546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466241838670, "dur":45367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466241884050, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466241884074, "dur":40439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466241924581, "dur":20159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466241944860, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466241944883, "dur":29733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466241974671, "dur":360919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466242335604, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466242335626, "dur":182584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466242518272, "dur":441483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466242959769, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466242967459, "dur":37023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466243004549, "dur":6903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466243011466, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466243011488, "dur":6115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466243017838, "dur":221803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466243239655, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466243239687, "dur":6680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466243246510, "dur":111314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466243357839, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466243357862, "dur":2699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466243360622, "dur":216587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466243577223, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466243577462, "dur":12330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466243589855, "dur":583737, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466244173654, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466244173678, "dur":10910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466244184707, "dur":219143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466244403864, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466244403887, "dur":1978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466244405926, "dur":524521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466244930461, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466244930484, "dur":119966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466245050530, "dur":975397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466246025940, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466246025963, "dur":2732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466246028755, "dur":117314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466246146082, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466246146105, "dur":3806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717466246149976, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1717466246150183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466246151231, "dur":2466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1717466246153762, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1717466246153823, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466246153835, "dur":7859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1717466246161757, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1717466246161819, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466246161836, "dur":3533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1717466246165423, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1717466246165640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466246165653, "dur":4339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1717466246170054, "dur":29321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1717466246199389, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466246199411, "dur":22811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1717466246222353, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1717466246222418, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466246222436, "dur":2291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1717466246224787, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1717466246224993, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717466246225011, "dur":2386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1717466246227459, "dur":281238, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466240770005, "dur":1228, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466240771233, "dur":6826, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466240778060, "dur":730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1717466240778798, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466240787420, "dur":15338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1717466240803122, "dur":25079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1717466240828214, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466240828239, "dur":3614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1717466240831919, "dur":550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1717466240832528, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466240832677, "dur":5685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1717466240838431, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1717466240838681, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466240838704, "dur":3380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1717466240842152, "dur":37761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1717466240879926, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466240879950, "dur":2259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1717466240882271, "dur":154379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241036663, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466241036853, "dur":8356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241045270, "dur":65974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241111300, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466241112267, "dur":6173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241118509, "dur":16597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241135119, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466241135679, "dur":1894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241137641, "dur":11988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241149688, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466241149711, "dur":88951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241238725, "dur":10713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241249452, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466241249474, "dur":2540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241252072, "dur":13127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241265259, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466241265283, "dur":5418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241270767, "dur":11597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241282379, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466241282402, "dur":2066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241284550, "dur":10071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241294634, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466241294657, "dur":3376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241298108, "dur":24729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241322852, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466241322874, "dur":22142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241345083, "dur":31248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241376345, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466241376367, "dur":7991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241384429, "dur":81418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241465860, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466241465939, "dur":3417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241469426, "dur":14106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241483540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466241483554, "dur":9083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241492710, "dur":11851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241504575, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466241504597, "dur":1825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241506522, "dur":10950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241517480, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466241517497, "dur":3631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241521189, "dur":12838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241534041, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466241534065, "dur":4061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241538185, "dur":13594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241551793, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466241551816, "dur":3633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241555519, "dur":11981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241567513, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466241567536, "dur":10074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241577669, "dur":11201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241588882, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466241588904, "dur":9440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241598404, "dur":12564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241611032, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466241611055, "dur":6652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241617903, "dur":62536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241680452, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466241680476, "dur":15436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241695970, "dur":9777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241705754, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466241705770, "dur":4102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241709935, "dur":34478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241744426, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466241744449, "dur":14251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241758771, "dur":52670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241811455, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466241811766, "dur":6000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241817836, "dur":14151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241832001, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466241832024, "dur":24362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241856455, "dur":14120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241870589, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466241870612, "dur":7497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241878200, "dur":19863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241898077, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466241898148, "dur":74384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466241972602, "dur":359828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466242332439, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466242332456, "dur":6175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466242338698, "dur":820340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466243159052, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466243159075, "dur":12087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466243171239, "dur":350729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466243521983, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466243522007, "dur":4432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466243526819, "dur":442232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466243969064, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466243969086, "dur":13440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466243983382, "dur":230618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466244214014, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466244214047, "dur":3048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466244217155, "dur":105026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466244322195, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466244322219, "dur":25198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466244347478, "dur":427112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466244774604, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466244774627, "dur":3059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466244777765, "dur":383237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466245161015, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466245161059, "dur":39142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466245200262, "dur":947548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466246147823, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466246147846, "dur":2396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717466246150297, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1717466246150361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466246150427, "dur":3118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1717466246153616, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1717466246153684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466246153704, "dur":3618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1717466246157425, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1717466246157491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466246157508, "dur":7605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1717466246165177, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1717466246165239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466246165256, "dur":9809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1717466246175127, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1717466246175188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466246175207, "dur":3357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1717466246178627, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1717466246178697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466246178714, "dur":1530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1717466246180301, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1717466246180362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466246180379, "dur":3933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1717466246184545, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1717466246184612, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466246184630, "dur":2872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1717466246187562, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1717466246187623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466246187640, "dur":16705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1717466246204600, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1717466246204780, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466246204801, "dur":2905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1717466246207771, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1717466246207838, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717466246207857, "dur":21136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1717466246229120, "dur":279575, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717466240770066, "dur":1177, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717466240771244, "dur":6614, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717466240777868, "dur":102972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1717466240880848, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717466240881913, "dur":1958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1717466240883971, "dur":400818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717466241284877, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717466241284895, "dur":75671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717466241360648, "dur":11220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717466241371926, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717466241371981, "dur":2030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717466241374072, "dur":10912, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717466241384994, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717466241385015, "dur":1826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717466241386901, "dur":428241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717466241815154, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717466241815174, "dur":22000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717466241837239, "dur":43071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717466241880325, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717466241880348, "dur":39814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717466241920236, "dur":18675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717466241938925, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717466241938946, "dur":35459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717466241974511, "dur":359460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717466242333984, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717466242334007, "dur":227888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717466242561963, "dur":336915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717466242898892, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717466242898915, "dur":9221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717466242908199, "dur":255151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717466243163363, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717466243163386, "dur":2044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717466243165498, "dur":9359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717466243174871, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717466243174893, "dur":3490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717466243178450, "dur":96125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717466243274590, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717466243274657, "dur":3616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717466243278338, "dur":419406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717466243697757, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717466243697780, "dur":14972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717466243712813, "dur":448487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717466244161314, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717466244161337, "dur":41382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717466244202784, "dur":449385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717466244652183, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717466244652206, "dur":70319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717466244722588, "dur":397699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717466245120329, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717466245120363, "dur":59494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717466245179922, "dur":446298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717466245626234, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717466245626257, "dur":43420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717466245669745, "dur":832508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717466246502307, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717466246502330, "dur":6266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/timmi/Desktop/   //build/PcPuzzle_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717466246508660, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1717466246508666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717466246516872, "dur":3765, "ph":"X", "name": "ProfilerWriteOutput" }
+,
